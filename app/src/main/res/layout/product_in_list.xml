@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:paddingBottom="20dp"
+        android:layout_height="wrap_content"
+        android:background="#8C6F8A"
+        android:layout_marginBottom="20dp">
+
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="20dp"
+            app:srcCompat="@drawable/cardigan"
+            android:id="@+id/product_list_title"
+            android:scaleType="centerCrop"/>
+
+    <TextView
+            android:text="TextView"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/product_list_image" />
+
+    <TextView
+            android:text="TextView"
+            android:textSize="17sp"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/product_list_desc" />
+
+    <TextView
+            android:text="TextView"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="10dp"
+            android:gravity="end"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/product_list_price" />
+
+    <Button
+            android:text="More"
+            android:width="200dp"
+            android:backgroundTint="#3D2C3B"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/product_list_button" />
+</LinearLayout>
